@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;SpringCore1&apos; to &apos; SpringCore_SettetInjection&apos;&#x0D;&#x0A;- Original element: &apos;SpringCore1&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringCore1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;SpringCore1&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=SpringCore1" name=" SpringCore_SettetInjection" references="true" stamp="1677435302956" version="1.0"/>
+</session>

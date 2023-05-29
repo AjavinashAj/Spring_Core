@@ -1,0 +1,21 @@
+package in.ashokit;
+
+public class Employee {
+	private int id;
+	private String name;
+	private Double sal;
+	
+	public void setId(int id)
+	{
+		this.id=id;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public void setSal(Double sal)
+	{
+		this.sal=sal;
+	}
+
+}

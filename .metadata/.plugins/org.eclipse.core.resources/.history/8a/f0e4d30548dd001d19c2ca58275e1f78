@@ -1,0 +1,16 @@
+package in.ashokit;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("hello coder");
+		//start IOC container
+		ApplicationContext context=new ClassPathXmlApplicationContext("bean.xml");
+		 
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package in.ashokit;
+
+public class ElectricalEng implements IEngine{
+	
+
+	public ElectricalEng() {
+		super();
+		System.out.println("Constructor::Electrical");
+	}
+
+	public void start() {
+		System.out.println("Electrical Engine Start");
+		
+	}
+
+}

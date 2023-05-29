@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation=
+ "http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ <!--this is our bean -->
+ <bean name="Emp1" class="com.nt.collection.Emp">
+      <property name="name" value ="avinash"/>
+      <property name="phones">
+           <list>
+                 <value>1234566778</value>
+                 <value>85764452225</value>
+                 <value>76879894984</value>
+           </list>
+           </property>
+       <property name="address">
+              <set>
+                   <value>Delhi</value>
+                   <value>Mumbai</value>
+                   <value>Kolkata</value>
+              </set>
+              </property>
+       <property name ="course">
+             <map>
+                  <entry key="java" value="2months"/>
+                  <entry key="python" value="1.2months"/>
+                  <entry key="c-lang" value="1 months"/>
+              </map>
+              </property>
+       <property name="skill">
+                 <props>
+                  <prop key ="language">java</prop>
+                  <prop key ="DB">sql</prop>
+                  <prop key ="Framework">spring</prop>
+                 </props>
+             </property> 
+ </bean>
+ </beans>

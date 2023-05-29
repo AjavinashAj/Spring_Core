@@ -1,0 +1,15 @@
+package in.ashokit;
+
+public class CanaraBank implements RBI{
+     
+	public CanaraBank() {
+		super();
+		System.out.println("Constructor::CanaraBank");
+	}
+
+	public void cash() {
+		System.out.println("Canara Bank cash");
+		
+	}
+
+}

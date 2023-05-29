@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean id="stu" class="com.nit.service.Student">
+ <property name="id" value="121"/>
+ <property name="name" value="Alex"/>
+ <property name="phnoes">
+    <list>
+          <value>1234456788</value>
+          <value>0987654332</value>
+          <value>1232434465</value>
+     </list>
+ </property>
+ <property name="addresses">
+      <set>
+           <value>Delhi</value>
+           <value>patna</value>
+           <value>hajipur</value>
+      </set>       
+ </property>
+ <property name="courses">
+        <map>
+            <entry key="java" value ="3months"/>
+            <entry key="phython"><value>2months</value></entry>
+            <entry key =".net" value="1months"/>
+        </map>
+ </property>
+ </bean>
+ </beans>

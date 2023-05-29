@@ -1,0 +1,27 @@
+package in.ashokit;
+
+public class SBI implements RBI{
+	
+     RBI rbi;
+     
+	public SBI(RBI rbi) {
+		super();
+		this.rbi = rbi;
+	}
+
+	public SBI() {
+		super();
+		System.out.println("Constructor::SBI");
+	}
+
+	public void cash() {
+		System.out.println("SBI cash");
+		
+	}
+
+	public int CashSend() {
+		int rs=rbi.CashSend();
+		return 500;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;App.java&apos; to &apos;bike/src/main/java/in.ashokit&apos;&#x0D;&#x0A;- Original project: &apos; 01-SpringCore_SettetInjection&apos;&#x0D;&#x0A;- Destination element: &apos;bike/src/main/java/in.ashokit&apos;&#x0D;&#x0A;- Original element: &apos;in.ashokit.beans.App.java&apos;" description="Copy compilation unit" destination="=bike/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ashokit" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ashokit.beans{App.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1681748923829" units="1" version="1.0"/>
+</session>
